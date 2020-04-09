@@ -50,7 +50,7 @@ import {
   proc_exit,
   random_get,
   rights,
-} from "bindings/wasi";
+} from "bindings/wasi_unstable";
 
 @lazy const mem64:  u64[] = [0];
 @lazy const mem128: u64[] = [0, 0];
@@ -989,6 +989,7 @@ export class CommandLine {
   }
 }
 
+/*
 export class Time {
   static NANOSECOND: i32  = 1;
   static MILLISECOND: i32 = Time.NANOSECOND  * 1000000;
@@ -1028,6 +1029,7 @@ export class Time {
     __free(changetype<usize>(clockSub));
   }
 }
+*/
 
 class StringUtils {
   /**
