@@ -5,7 +5,7 @@ import {
   clock_res_get,
   clock_time_get,
   clockid,
-  subscription_clock,
+  // subscription_clock,
   dircookie,
   environ_get,
   environ_sizes_get,
