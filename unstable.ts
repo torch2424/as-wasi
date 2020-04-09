@@ -1,3 +1,3 @@
-import {Console} from "./assembly/as-wasi";
+import {Console} from "./assembly/index";
 
 Console.log("Yooooo");
